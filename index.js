@@ -13,7 +13,7 @@ const getFields = async () => {
 
 getFields().then(fields => {
   fields.forEach(field => {
-    // console.log(field.getName());
+    console.log(field.getName());
     // console.log(`${field.getName()}`);
     console.log(`${field}`);
   });
